@@ -1,0 +1,16 @@
+{
+	"name": "docker_install",
+	"text": "docker install",
+	"script": "docker_install.sh",
+	"args": [],
+	"network": true,
+	"continue": true,
+	"type": "software",
+	"category":"software",
+	"supportedOperatingSystems": [
+		"raspbian-pibakery.img",
+		"raspbian-lite-pibakery.img"
+	],
+	"shortDescription":"Install docker.",
+	"longDescription":"Install docker."
+}

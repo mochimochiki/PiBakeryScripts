@@ -1,0 +1,21 @@
+{
+	"name": "proxy_setup",
+	"text": "Setup HTTP Proxy (without password)\\nHTTP: %1",
+	"script": "setupProxy.sh",
+	"args": [
+		{
+			"type": "text",
+			"default": "192.168.1.1:8080"
+        }
+	],
+	"network": false,
+	"continue": true,
+	"type": "network",
+	"category":"network",
+	"supportedOperatingSystems": [
+		"raspbian-pibakery.img",
+		"raspbian-lite-pibakery.img"
+	],
+	"shortDescription":"Setup HTTP Proxy.",
+	"longDescription":"Setup HTTP Proxy for apt/curl/docker."
+}

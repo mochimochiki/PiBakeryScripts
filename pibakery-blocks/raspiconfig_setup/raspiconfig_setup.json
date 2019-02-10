@@ -1,0 +1,41 @@
+{
+	"name": "raspiconfig_setup",
+	"text": "Setup raspi-config\\nssh(0:Enable, 1:Disable): %1\\nssh pw auth: %2\\nlocale: %3\\ntimezone: %4\\nmemory_split: %5\\ncamera(0:Enable, 1:Disable): %6",
+	"script": "raspiconfig_setup.sh",
+	"args": [
+		{
+            "type": "menu",
+            "options": ["0","1"]
+		},
+		{
+			"type": "menu",
+			"options": ["yes","no"]
+		},
+		{
+            "type": "menu",
+            "options": ["en_GB.UTF-8 UTF-8","ja_JP.UTF-8", "ja_JP.EUC-JP EUC-JP"]
+		},
+		{
+			"type": "text",
+			"default": "Asia/Tokyo"
+		},
+		{
+            "type": "text",
+            "default": "16"
+		},
+		{
+            "type": "menu",
+            "options": ["0","1"]
+		}
+	],
+	"network": false,
+	"continue": true,
+	"type": "setting",
+	"category":"setting",
+	"supportedOperatingSystems": [
+		"raspbian-pibakery.img",
+		"raspbian-lite-pibakery.img"
+	],
+	"shortDescription":"Setup raspi-config.",
+	"longDescription":"Setup raspi-config."
+}

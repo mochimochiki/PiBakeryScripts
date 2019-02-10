@@ -1,2 +1,2 @@
 # PiBakeryScripts
-PiBakery scripts
+PiBakery用の追加ブロック集とサンプルスクリプトです。

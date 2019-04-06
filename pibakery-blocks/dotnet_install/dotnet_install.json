@@ -1,0 +1,16 @@
+{
+	"name": "dotnet_install",
+	"text": "dotnet install",
+	"script": "dotnet_install.sh",
+	"args": [],
+	"network": true,
+	"continue": true,
+	"type": "software",
+	"category":"software",
+	"supportedOperatingSystems": [
+		"raspbian-pibakery.img",
+		"raspbian-lite-pibakery.img"
+	],
+	"shortDescription":"Install dotnet.",
+	"longDescription":"Install dotnet."
+}

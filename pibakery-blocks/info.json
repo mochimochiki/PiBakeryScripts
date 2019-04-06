@@ -32,6 +32,8 @@
     "staticip_setup",
     "proxy_setup",
     "raspiconfig_setup",
-    "docker_install"
+    "docker_install",
+    "dotnet_install",
+    "samba_install"
   ]
 }

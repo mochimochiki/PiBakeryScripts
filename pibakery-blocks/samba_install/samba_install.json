@@ -1,0 +1,16 @@
+{
+	"name": "samba_install",
+	"text": "samba install",
+	"script": "samba_install.sh",
+	"args": [],
+	"network": true,
+	"continue": true,
+	"type": "software",
+	"category":"software",
+	"supportedOperatingSystems": [
+		"raspbian-pibakery.img",
+		"raspbian-lite-pibakery.img"
+	],
+	"shortDescription":"Install samba.",
+	"longDescription":"Install samba."
+}
